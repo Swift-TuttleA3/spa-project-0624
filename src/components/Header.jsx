@@ -1,11 +1,12 @@
-import NavBar from "./Navbar";
-
 const Header = () => {
   return (
-    <header>
-          <h1>My Header</h1>
-          <NavBar />
-    </header>
+    <>
+    <div className="text-5xl font-bold text-center m-5">
+      <header>
+       <h1>Chatbot</h1>  
+      </header>
+      </div>
+    </>
   );
 };
 
