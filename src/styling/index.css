@@ -22,3 +22,11 @@ footer {
   position: fixed;
   bottom: 0;
 }
+
+button {
+  background-color: var(--color-secondary);
+  color: var(--color-quaternary);
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 0.25rem;
+}
