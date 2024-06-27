@@ -7,6 +7,7 @@ export default {
     "./src/components/**/*.{html,js}",
     "./src/contexts/**/*.{html,js}",
   ],
+  darkMode: "selector",
   theme: {
     extend: {},
   },

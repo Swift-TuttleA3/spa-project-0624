@@ -6,15 +6,20 @@
   --color-primary: #ff0000;
   --color-secondary: #00ff00;
   --color-tertiary: #343738;
-  --color-quaternary: #e6e6e6;
+  --color-quaternary: #949494;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--color-tertiary);
-  color: var(--color-quaternary);
+  background-color: var(--color-quaternary);
+  color: var(--color-tertiary);
   margin: 0;
   padding: 0;
+}
+
+body.dark {
+  background-color: var(--color-tertiary);
+  color: var(--color-quaternary);
 }
 
 footer {

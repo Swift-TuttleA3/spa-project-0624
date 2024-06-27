@@ -1,8 +1,10 @@
+import About from "./About";
+
 const Footer = () => {
   return (
     <div className="container">
-    <footer>
-      <p>© Me 2020</p>
+      <footer>
+        <p className="text-stone-200" onClick={() => About()}>© APIs-Revenge 2024</p>
       </footer>
     </div>
   );

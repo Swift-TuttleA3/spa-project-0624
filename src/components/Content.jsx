@@ -3,11 +3,13 @@ import ChatSwitch from './ChatSwitch';
 import About from './About';
 import Contact from './Contact';
 import NavObjects from './NavObjects';
+import ThemeSlider from './ThemeSlider';
 
 const Content = () => {
   return (
-      <Router>
-        <NavObjects />
+    <Router>
+      <NavObjects />
+      <ThemeSlider />
       <Routes>
         <Route path="/" element={<ChatSwitch />} />
         <Route path="/about" element={<About />} />
