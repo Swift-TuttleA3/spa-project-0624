@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 export const NavObjects = () => {
     return (
-      <nav className='bg-slate-500 h-10'>
-        <ul className='container columns-3 text-center mx-auto font-bold font-mono text-4xl text-white'>
+      <nav className='bg-slate-500 h-10 relative'>
+        <ul className='container columns-3 text-center mx-auto font-bold font-mono text-4xl text-white sticky'>
           <li>
             <NavLink to="/" className={({ isActive }) => (isActive ? 'underline' : '')}>
               ChatBot
