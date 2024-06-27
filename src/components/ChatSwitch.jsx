@@ -5,7 +5,7 @@ const ChatSwitch = () =>{
 
   return (
     <div>
-      <p className="text-center mt-4 font-mono">Ask chatGPT 8.0/ultra</p>
+      <p className="text-center mt-4 font-mono">Ask chatGPT Pro Max 8.0-turbo</p>
       <div className="text-center ">
         <FakeAnswer />
       </div>
